@@ -19,6 +19,7 @@ import java.util.List;
 
 /**
  * masih gagal, solusinya harus pake AbstractRoutingDataSource
+ * solusi lain pake text mode / scanner
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class,
         DataSourceTransactionManagerAutoConfiguration.class})
